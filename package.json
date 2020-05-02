@@ -4,8 +4,9 @@
   "license": "MIT",
   "idyll": {
     "theme": "default",
-    "layout": "centered",
+    "layout": "blog",
     "css": "styles.css",
+    "favicon": "static/favicon.png",
     "authorView": false,
     "output": "docs/"
   },

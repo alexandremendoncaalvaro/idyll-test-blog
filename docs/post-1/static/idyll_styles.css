@@ -1095,5 +1095,44 @@ img {
 @media all and (max-width: 1000px) {
   .d3-component svg {
     max-height: 200px;
+  } 
+}
+
+#scrimba-container {
+  background-color: #ddd;
+}
+
+iframe {
+  width: 1270px;
+  height: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+ } 
+
+@media all and (max-width: 1400px) {
+  iframe {
+    width: 900px;
+    height: 600px;
+  }
+}
+@media all and (max-width: 1000px) {
+  iframe {
+    width: 600px;
+    height: 400px;
+  }
+}
+@media all and (max-width: 640px) {
+  iframe {
+    width: 480px;
+    height: 320px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  iframe {
+    width: 360px;
+    height: 300px;
   }
 }
